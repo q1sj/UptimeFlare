@@ -1,3 +1,11 @@
+const pageConfig = {
+  title: "lyc8503's Status Page",
+  links: [
+    { link: 'https://q1sj.cn/', label: 'Blog' },
+    { link: 'https:/alist.q1sj.cn', label: 'Alist' },
+    { link: 'mailto:root@q1sj.cn', label: 'Email Me', highlight: true },
+  ],
+}
 type MonitorState = {
   lastUpdate: number
   overallUp: number
