@@ -26,8 +26,6 @@ const workerConfig = {
       method: 'GET',
       // `target` is a valid URL
       target: 'https://alist.q1sj.cn',
-      // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
-      tooltip: 'This is a tooltip for this monitor',
       // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
       statusPageLink: 'https://alist.q1sj.cn',
       // [OPTIONAL] `expectedCodes` is an array of acceptable HTTP response codes, if not specified, default to 2xx
