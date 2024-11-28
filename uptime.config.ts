@@ -32,22 +32,6 @@ const workerConfig = {
       expectedCodes: [200],
       // [OPTIONAL] `timeout` in millisecond, if not specified, default to 10000
       timeout: 10000
-    },
-    {
-      // `id` should be unique, history will be kept if the `id` remains constant
-      id: 'blog',
-      // `name` is used at status page and callback message
-      name: 'Blog',
-      // `method` should be a valid HTTP Method
-      method: 'GET',
-      // `target` is a valid URL
-      target: 'https://q1sj.cn',
-      // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
-      statusPageLink: 'https://q1sj.cn',
-      // [OPTIONAL] `expectedCodes` is an array of acceptable HTTP response codes, if not specified, default to 2xx
-      expectedCodes: [200],
-      // [OPTIONAL] `timeout` in millisecond, if not specified, default to 10000
-      timeout: 10000
     }
   ],
   notification: {
